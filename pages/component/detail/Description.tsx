@@ -5,10 +5,10 @@ import back from '@/public/back.svg'
 const Description = (props: { title: string, open: boolean, setOpen: Function }) => {
 
   return (
-    <div className='flex justify-center items-center flex-col '>
+    <div className='flex justify-center items-center flex-col overflow-auto'>
       <button onClick={() => (props.setOpen(!open))} className='p-10 font-bold text-2xl flex flex-row items-center space-x-2'><Image src={back} alt='' /> <h1>{props.title}</h1></button>
-      <div>
-        <div className='overflow-auto'>
+      <div className='overflow-auto'>
+        <div className=''>
 
           <p className='p-16 '>
             Lorem ipsum dolor sit amet, consectetur adipiscing eli. Donec suscipit purus quis condimentum vulputate. Suspendisse sodales a nisi non pellentesque. convallis enim euismod, consectetur orci ac, elementum lectus. Etiam et malesuada justo. Aliquam justo ante, sodales ut nulla in, faucibus euismod nisl. Nullam et nisi vel nulla aliquet sollicitudin.

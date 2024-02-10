@@ -2,12 +2,11 @@ import React, { useState } from 'react'
 import List from '../List/List'
 import Description from '../detail/Description'
 
+
 const Blogs = () => {
 
   const [open, setOpen] = useState<boolean>(false);
   const [title, setTitle] = useState<string>("");
-
-
 
   return (
     <main className=' h-full  flex justify-center items-center p-5'>
