@@ -1,0 +1,53 @@
+Bonjour Issam,
+
+J'espère que ce message vous trouve bien. Suite à notre récente discussion, je voulais vous envoyer les détails du test technique pour le stage de Projet de Fin d'Études en développement informatique.
+
+Description du Projet :
+
+L'objectif de ce projet est de développer une application de blog personnel en utilisant Next.js  et Prisma comme ORM pour la gestion de la base de données. L'application permettra aux utilisateurs de créer, visualiser et supprimer des articles, avec une intégration étroite entre l'interface utilisateur et la couche de données persistante.
+
+Fonctionnalités Requises :
+
+Page d'Accueil :
+
+Afficher la liste des articles depuis la base de données sur la page d'accueil.
+Chaque article doit présenter son titre, sa date de publication, et un extrait du contenu.
+
+
+Page de Détail de l'Article :
+
+Permettre à l'utilisateur de visualiser les détails complets d'un article en cliquant sur celui-ci.
+La page de détail doit présenter le titre, le contenu intégral de l'article, et la date de publication.
+
+
+Création d'Article :
+
+Implémenter une fonctionnalité permettant à l'utilisateur de créer un nouvel article.
+Saisie du titre et du contenu de l'article par l'utilisateur.
+Stockage des nouveaux articles dans la base de données via Prisma.
+
+
+Suppression d'Article :
+
+Intégrer la possibilité de supprimer un article.
+Assurer que la suppression est synchronisée avec la base de données.
+
+
+Contraintes Techniques :
+
+Utilisation de Next.js pour la construction de l'application.
+Utilisation de Prisma pour l'ORM et la gestion de la base de données (choisir une base de données compatible avec Prisma).
+Implémentation des fonctionnalités de routage de Next.js pour la navigation.
+Utilisation des hooks de gestion de l'état de React pour la manipulation des données.
+
+Livraison :
+
+Fournir le code source de l'application, accompagné d'un README . Assurez-vous que le code est conforme aux normes de qualité, bien commenté, et qu'il suit les meilleures pratiques de développement.
+
+Date Limite de Soumission : Mardi 13 Février 2024.
+
+N'hésitez pas à me contacter si vous avez des questions ou des préoccupations supplémentaires. Nous sommes là pour vous aider.
+
+Cordialement, 
+
+Nassira,
